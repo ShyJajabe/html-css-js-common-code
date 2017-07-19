@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul,li{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 0;
+        }
+
+
+        .fontChange {
+            font-size: 0;
+        }
+        .default a {
+            display: inline-block;
+            padding: 5px;
+            background-color: lightskyblue; font-size: 12px;
+        }
+        .fontChange a {
+            display: inline-block;
+            padding: 5px;
+            background-color: lightskyblue; font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="default">
+    <a href="#">option1</a>
+    <a href="#">option2</a>
+    <a href="#">option3</a>
+</div>
+<div class="fontChange">
+    <a href="#">option1</a>
+    <a href="#">option2</a>
+    <a href="#">option3</a>
+</div>
+<p>用inline-block的时候要注意，换行和空格会有间距，不清除可能影响布局</p>
+</body>
+</html>
